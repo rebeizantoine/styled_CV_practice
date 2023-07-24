@@ -1,0 +1,200 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2759;
+    color: white;
+    padding: 20px;
+    height: 270px;
+    margin-left: -35px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header-image img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+.header-image {
+    margin-right: 30px;
+    /* Adjust the margin to move the image to the left */
+}
+
+.contact-container {
+    margin-top: 50px;
+    background-color: #98fb98;
+    padding: 10px;
+    display: flex;
+    /* Display the contact items in a row */
+    flex-wrap: wrap;
+    /* Allow wrapping if the content exceeds the container's width */
+    font-family: Tahoma, sans-serif;
+    background-color: #121023;
+    color: white;
+    width: 100%;
+    margin-right: 30px;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.contact {
+    margin-right: 80px;
+    margin-bottom: 10px;
+    /* Add spacing between each contact item */
+}
+
+.contact span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.SKILLS li {
+    background: #3498db;
+    background: rgba(0, 0, 0, .75);
+    border-radius: 50px;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    height: 20px;
+    align-items: flex-start;
+
+}
+
+.contact-container123 {
+    display: none;
+}
+
+.SKILLS {
+    margin-left: 0 px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.LEFT,
+.RIGHT {
+    flex: 1;
+    align-items: flex-start;
+
+
+
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.left-div,
+.right-div {
+    flex: 1;
+    width: 45%;
+
+
+}
+
+h1 {
+    text-decoration: underline;
+    color: #008080;
+}
+
+h2 {
+    text-decoration: underline;
+    color: #008080;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.languages {
+    display: flex;
+}
+
+.languageleft {
+    flex: 1;
+}
+
+.languageright {
+    flex: 1;
+}
+
+.native {
+    color: #008080;
+}
+
+.proficiency {
+    display: flex;
+}
+
+.proficiency li {
+
+    font-style: italic;
+    list-style-type: none;
+    margin-right: 30px;
+    color: #008080;
+}
+
+.languages li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.biglang {
+    display: block;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.education p {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .header {
+        display: block;
+
+    }
+
+    .contact-container {
+        display: none;
+    }
+
+    .container1 {
+        display: block;
+    }
+
+    .contact-container123 {
+        display: block;
+    }
+}
